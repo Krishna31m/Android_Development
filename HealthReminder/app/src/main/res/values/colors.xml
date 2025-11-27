@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#2196F3</color>
+    <color name="colorSecondaryDark">#1976D2</color>
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="surfaceColor">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textHint">#9E9E9E</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Feature Colors -->
+    <color name="medicineColor">#4CAF50</color>
+    <color name="waterColor">#2196F3</color>
+    <color name="exerciseColor">#FF9800</color>
+    <color name="dietColor">#E91E63</color>
+    <color name="moodColor">#9C27B0</color>
+    <color name="doctorColor">#00BCD4</color>
+    <color name="emergencyColor">#F44336</color>
+    <color name="challengeColor">#FFC107</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semiTransparent">#80000000</color>
+
+    <!-- Divider -->
+    <color name="divider">#E0E0E0</color>
+
+    <!-- White and Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Material Colors -->
+    <color name="red_500">#F44336</color>
+    <color name="pink_500">#E91E63</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="deep_purple_500">#673AB7</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="lime_500">#CDDC39</color>
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="amber_500">#FFC107</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="deep_orange_500">#FF5722</color>
+
+    <color name="bottom_nav_color">#FFFFFF</color>
+    <color name="chip_background_color">#F1F1F1</color>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+
+
+<!--    <color name="teal_700">#00796B</color>-->
+<!--    <color name="red_700">#D32F2F</color>-->
+<!--    <color name="blue_700">#1976D2</color>-->
+
+
+<!--    <color name="colorPrimary">#4CAF50</color>-->
+<!--    <color name="colorPrimaryDark">#388E3C</color>-->
+<!--    <color name="colorAccent">#FF9800</color>-->
+
+<!--    &lt;!&ndash; Secondary Colors &ndash;&gt;-->
+<!--    <color name="colorSecondary">#2196F3</color>-->
+<!--    <color name="colorSecondaryDark">#1976D2</color>-->
+
+<!--    &lt;!&ndash; Background Colors &ndash;&gt;-->
+<!--    <color name="backgroundColor">#FAFAFA</color>-->
+<!--    <color name="cardBackground">#FFFFFF</color>-->
+<!--    <color name="surfaceColor">#FFFFFF</color>-->
+
+<!--    &lt;!&ndash; Text Colors &ndash;&gt;-->
+<!--    <color name="textPrimary">#212121</color>-->
+<!--    <color name="textSecondary">#757575</color>-->
+<!--    <color name="textHint">#9E9E9E</color>-->
+
+<!--    &lt;!&ndash; Status Colors &ndash;&gt;-->
+<!--    <color name="success">#4CAF50</color>-->
+<!--    <color name="error">#F44336</color>-->
+<!--    <color name="warning">#FF9800</color>-->
+<!--    <color name="info">#2196F3</color>-->
+
+<!--    &lt;!&ndash; Feature Colors &ndash;&gt;-->
+<!--    <color name="medicineColor">#4CAF50</color>-->
+<!--    <color name="waterColor">#2196F3</color>-->
+<!--    <color name="exerciseColor">#FF9800</color>-->
+<!--    <color name="dietColor">#E91E63</color>-->
+<!--    <color name="moodColor">#9C27B0</color>-->
+<!--    <color name="doctorColor">#00BCD4</color>-->
+<!--    <color name="emergencyColor">#F44336</color>-->
+<!--    <color name="challengeColor">#FFC107</color>-->
+
+<!--    &lt;!&ndash; Transparent Colors &ndash;&gt;-->
+<!--    <color name="transparent">#00000000</color>-->
+<!--    <color name="semiTransparent">#80000000</color>-->
+
+<!--    &lt;!&ndash; Divider &ndash;&gt;-->
+<!--    <color name="divider">#E0E0E0</color>-->
+
+<!--    &lt;!&ndash; Material Colors &ndash;&gt;-->
+<!--    <color name="red_500">#F44336</color>-->
+<!--    <color name="pink_500">#E91E63</color>-->
+<!--    <color name="purple_500">#9C27B0</color>-->
+<!--    <color name="deep_purple_500">#673AB7</color>-->
+<!--    <color name="indigo_500">#3F51B5</color>-->
+<!--    <color name="blue_500">#2196F3</color>-->
+<!--    <color name="light_blue_500">#03A9F4</color>-->
+<!--    <color name="cyan_500">#00BCD4</color>-->
+<!--    <color name="teal_500">#009688</color>-->
+<!--    <color name="green_500">#4CAF50</color>-->
+<!--    <color name="light_green_500">#8BC34A</color>-->
+<!--    <color name="lime_500">#CDDC39</color>-->
+<!--    <color name="yellow_500">#FFEB3B</color>-->
+<!--    <color name="amber_500">#FFC107</color>-->
+<!--    <color name="orange_500">#FF9800</color>-->
+<!--    <color name="deep_orange_500">#FF5722</color>-->
+
+<!--    <color name="bottom_nav_color">#757575</color>-->
+<!--    <color name="chip_background_color">#E0E0E0</color>-->
+
+
+
+<!--</resources>-->
