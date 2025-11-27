@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Pay Button -->
+    <Button
+        android:id="@+id/pay_button"
+        android:text="Pay Now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/payNowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Now via UPI" />
+
+    <!-- QR Payment Option -->
+    <Button
+        android:id="@+id/pay_qr_button"
+        android:text="Pay Using QR Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- QR Code Image (Initially Hidden) -->
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+
+    <!-- Transaction ID Input (Initially Hidden) -->
+    <EditText
+        android:id="@+id/transaction_id_input"
+        android:hint="Enter Transaction ID"
+        android:inputType="number"
+        android:maxLength="12"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Submit Button (Initially Hidden) -->
+    <Button
+        android:id="@+id/submit_transaction"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

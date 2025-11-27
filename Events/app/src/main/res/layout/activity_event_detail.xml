@@ -1,0 +1,188 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Event Image -->
+        <ImageView
+            android:id="@+id/eventImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_event_image" />
+
+        <!-- Event Title -->
+        <TextView
+            android:id="@+id/eventTitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/eventArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist: John Doe"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="6dp" />
+
+        <!-- Date & Time -->
+        <TextView
+            android:id="@+id/eventDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date &amp; Time: April 20, 2025 | 7:00 PM"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="4dp" />
+
+        <!-- Venue -->
+        <TextView
+            android:id="@+id/eventVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Venue: City Arena, Mumbai"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="4dp" />
+
+        <!-- Ticket Price -->
+        <TextView
+            android:id="@+id/eventPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ticket Price: ₹10 - ₹30"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingTop="4dp" />
+
+        <!-- Full Event Description -->
+        <TextView
+            android:id="@+id/eventDescriptionDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a detailed description of the event. It will provide all the necessary details about the event, the artists, and what to expect."
+            android:textSize="16sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="16dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Book Now Button -->
+        <Button
+            android:id="@+id/bookNowButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Now"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/joinCommunityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join Community"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white" />
+
+        <!-- Share Button -->
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white" />
+<!--        <Button-->
+<!--            android:id="@+id/new_payment_option"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="QR Payment"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:backgroundTint="@color/purple_500"-->
+<!--            android:textColor="@android:color/white"/>-->
+        <Button
+            android:id="@+id/btnOtherPaymentOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OtherPaymentOption"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"/>
+
+
+
+
+        <!-- In case of payment failure Text -->
+        <TextView
+            android:id="@+id/paymentFailureText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In case of payment failure"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <!-- QR Code Payment Section -->
+        <LinearLayout
+            android:id="@+id/qrCodePaymentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/qrCodeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In case of payment failure, use this QR code to complete the payment."
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/qrCodeImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/qr_code" />
+
+            <EditText
+                android:id="@+id/transactionIdInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter 12-digit transaction ID"
+                android:inputType="number"
+                android:layout_marginTop="12dp"
+                android:padding="10dp"
+                android:textSize="16sp" />
+            <!-- Proceed to QR Payment Screen Button -->
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

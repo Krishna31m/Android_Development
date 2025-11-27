@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#EEEEEE"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/ticketTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Ticket"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000" />
+
+        <TextView android:id="@+id/ticketEventTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event: "
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <TextView android:id="@+id/ticketDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date &amp; Time: "
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <TextView android:id="@+id/ticketVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue: "
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <TextView android:id="@+id/ticketName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <TextView android:id="@+id/ticketPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: "
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <TextView android:id="@+id/ticketSeats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seats: "
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <TextView android:id="@+id/ticketSeatType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat Type: "
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <TextView android:id="@+id/ticketAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Paid: "
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/closeTicketBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:backgroundTint="@color/black"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

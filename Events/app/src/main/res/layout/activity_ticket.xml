@@ -1,0 +1,85 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/ticketTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/ticketUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name &amp; Phone"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticketDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date &amp; Time"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticketVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venue"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticketSeatType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seat Type"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:id="@+id/ticketSeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Seats: 1"
+        android:padding="5dp"/>
+
+
+    <TextView
+        android:id="@+id/ticketAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticketIdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ticket ID"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/ticketQRCode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/tempText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR Payment Screen"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <!-- Countdown -->
+        <TextView
+            android:id="@+id/countdownText"
+            android:text="Time left: 60 sec"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:inputType="textPersonName" />
+
+        <!-- Mobile Number -->
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <!-- Number of Seats -->
+        <EditText
+            android:id="@+id/etSeats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Seats"
+            android:inputType="number" />
+
+        <!-- Seat Type -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Seat Type"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <RadioGroup
+            android:id="@+id/seatTypeGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbSilver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Silver" />
+
+            <RadioButton
+                android:id="@+id/rbGold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gold" />
+
+            <RadioButton
+                android:id="@+id/rbPlatinum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Platinum" />
+        </RadioGroup>
+
+        <!-- Total Amount -->
+        <TextView
+            android:id="@+id/tvTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: ₹0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp" />
+
+        <!-- Calculate Button -->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate Total" />
+
+        <!-- QR Code Image -->
+        <ImageView
+            android:id="@+id/qrCodeImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="QR Code" />
+
+        <!-- Confirm Payment Button -->
+        <Button
+            android:id="@+id/btnConfirmPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I've Done the Payment"
+            android:layout_marginTop="16dp" />
+        <Button
+            android:id="@+id/btnGenerateQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate QR Code"
+            android:layout_marginTop="16dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

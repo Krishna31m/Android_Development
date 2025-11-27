@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" />
+
+    <!-- Phone Number Field -->
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:inputType="phone"
+        android:layout_below="@id/nameInput"
+        android:layout_marginTop="16dp" />
+
+    <!-- Number of Seats -->
+    <EditText
+        android:id="@+id/seatsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of seats"
+        android:inputType="number"
+        android:layout_below="@id/phoneInput"
+        android:layout_marginTop="16dp" />
+
+    <!-- Seat Type Spinner -->
+    <Spinner
+        android:id="@+id/seatTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seatsInput"
+        android:layout_marginTop="16dp" />
+
+    <!-- Total Amount Text -->
+    <TextView
+        android:id="@+id/amountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount: ₹0"
+        android:layout_below="@id/seatTypeSpinner"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <!-- Countdown Timer Text -->
+    <TextView
+        android:id="@+id/countdownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for payment..."
+        android:layout_below="@id/amountText"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <!-- Proceed Button -->
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:layout_below="@id/countdownText"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

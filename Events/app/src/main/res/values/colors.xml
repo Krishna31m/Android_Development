@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="customYellow">#FFD700</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- Bottom-nav item states -->
+    <color name="nav_item_active">#6200EE</color>
+    <color name="nav_item_inactive">#757575</color>
+
+    <!-- Bottom-nav background (optional) -->
+    <color name="nav_background">#FFFFFF</color>
+
+</resources>
