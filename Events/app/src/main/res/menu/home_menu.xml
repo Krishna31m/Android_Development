@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_comedy" android:title="Comedy" />
+    <item android:id="@+id/menu_music" android:title="Music" />
+    <item android:id="@+id/menu_plays" android:title="Plays" />
+    <item android:id="@+id/menu_sports" android:title="Sports" />
+    <item android:id="@+id/menu_adventure" android:title="Adventure" />
+    <item android:id="@+id/menu_workshop" android:title="Workshop" />
+    <item android:id="@+id/menu_kids_zone" android:title="Kids Zone" />
+    <item android:id="@+id/menu_movies" android:title="Movies" />
+    <item android:id="@+id/menu_live" android:title="Live Event" />
+</menu>

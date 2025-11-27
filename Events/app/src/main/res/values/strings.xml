@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Events</string>
+
+    <!-- Profile picture content description -->
+    <string name="profile_picture">Profile Picture</string>
+
+    <!-- Other strings you might use -->
+    <string name="user_name_hint">Full Name</string>
+    <string name="user_email_hint">user@example.com</string>
+    <string name="user_phone_hint">+91 98765 43210</string>
+    <string name="user_address_hint">123 Main Street, City, Country</string>
+    <string name="user_bio_hint">This is the user bio where a full description of the person goes.</string>
+</resources>
