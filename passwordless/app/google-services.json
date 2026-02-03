@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405418271456",
+    "project_id": "passwordless-5ef1a",
+    "storage_bucket": "passwordless-5ef1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405418271456:android:abbe1b0cf278862d906685",
+        "android_client_info": {
+          "package_name": "com.auth.passwordless"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxeojrOK6GE_pREjsnxYAcSswqVD_BgAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
