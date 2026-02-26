@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Varuna App</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="water_quality">Ka Jingbha Ka Um</string>
+    <string name="reports">Ki Report</string>
+    <string name="profile">Profile</string>
+
+    <string name="select_village">Jied ia ka shnong</string>
+    <string name="add_new_village">Thap shnong thymmai</string>
+    <string name="village_name">Ka kyrteng shnong</string>
+
+    <string name="water_test_data">Ki jingtip test um</string>
+    <string name="add_water_test">Thap data test um</string>
+
+    <string name="health_reports">Ki report ka koit ka khiah</string>
+    <string name="add_health_report">Thap report ka koit ka khiah</string>
+    <string name="view_all_reports">Peit lut ia ki report</string>
+
+    <string name="patient_name">Ka kyrteng nongpang</string>
+    <string name="age">Ka rta</string>
+    <string name="gender">Ka jait</string>
+    <string name="symptoms">Ki dak ki shin</string>
+
+    <string name="submit">Aiti</string>
+    <string name="cancel">Buh noh</string>
+    <string name="save">Sah</string>
+    <string name="logout">Logout</string>
+    <string name="help">Ka jingiarap</string>
+
+    <string name="no_villages_message">
+        Ym pat don kano kano ka shnong ba la thap.
+        \nBan sdang, thap shnong thymmai.
+    </string>
+
+    <string name="hint_message">Kylli shaphang ki jingpang ba la wan na ka um...</string>
+    <string name="loading">Dang load...</string>
+    <string name="error_network">Ym lah ban connect. Sngewbha peit ia ka internet.</string>
+    <string name="send">Phah</string>
+
+    <string name="upload_material">Upload Material</string>
+    <string name="education_material">Educational Material</string>
+    <string name="alerts">Ki Jingpynbna</string>
+
+    <string name="welcome_title">Pdiang sngewbha sha Varuna</string>
+    <string name="welcome_subtitle">Ka peitngor ia ka koit ka khiah bad ka um</string>
+
+    <string name="village_report_title">Ka Report shnong</string>
+    <string name="village_report_desc">Ai report ia ki dak ki shin jong u nongpang</string>
+
+    <string name="water_quality_title">Ka jingbha ka um</string>
+    <string name="water_quality_desc">Test ia ka jingbha ka um</string>
+
+    <string name="alerts_title">Ki Jingpynbna</string>
+    <string name="alerts_desc">Peit ia ki jingpynbna ka koit ka khiah</string>
+
+    <string name="education_title">Ka Jingtip</string>
+    <string name="education_desc">Pule shaphang ki rukom sumar met</string>
+
+    <string name="water_reference_title">Ka reference test um</string>
+    <string name="water_reference_desc">Upload tang ha ka CSV format</string>
+
+    <string name="chatbot_title">Chat Bot</string>
+    <string name="chatbot_desc">Bot Assistant</string>
+
+
+</resources>
+
+
+
+    <!--Garhwali (Uttarakhand)-->

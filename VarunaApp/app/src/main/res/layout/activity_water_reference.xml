@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Quality Reference (EPA)"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Compare your data with the reference below."
+            android:textSize="14sp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:columnCount="4"
+            android:useDefaultMargins="true">
+
+            <!-- Header -->
+            <TextView android:text="Parameter" android:textStyle="bold"/>
+            <TextView android:text="Sample 1" android:textStyle="bold"/>
+            <TextView android:text="Sample 2" android:textStyle="bold"/>
+            <TextView android:text="EPA Std" android:textStyle="bold"/>
+
+            <TextView android:text="pH"/>
+            <TextView android:text="6.9"/>
+            <TextView android:text="7.8"/>
+            <TextView android:text="6.5–8.5"/>
+
+            <TextView android:text="TDS"/>
+            <TextView android:text="450"/>
+            <TextView android:text="610"/>
+            <TextView android:text="&lt;500"/>
+
+            <TextView android:text="Turbidity"/>
+            <TextView android:text="2.1"/>
+            <TextView android:text="3.6"/>
+            <TextView android:text="&lt;5"/>
+
+            <TextView android:text="Hardness"/>
+            <TextView android:text="115"/>
+            <TextView android:text="175"/>
+            <TextView android:text="&lt;150"/>
+
+            <TextView android:text="Nitrate"/>
+            <TextView android:text="6"/>
+            <TextView android:text="14"/>
+            <TextView android:text="&lt;10"/>
+
+            <TextView android:text="Chloride"/>
+            <TextView android:text="160"/>
+            <TextView android:text="235"/>
+            <TextView android:text="&lt;250"/>
+
+            <TextView android:text="Fluoride"/>
+            <TextView android:text="0.5"/>
+            <TextView android:text="1.2"/>
+            <TextView android:text="&lt;1.5"/>
+
+            <TextView android:text="Iron"/>
+            <TextView android:text="0.15"/>
+            <TextView android:text="0.42"/>
+            <TextView android:text="&lt;0.3"/>
+
+            <TextView android:text="Sulphate"/>
+            <TextView android:text="170"/>
+            <TextView android:text="240"/>
+            <TextView android:text="&lt;250"/>
+
+            <TextView android:text="Alkalinity"/>
+            <TextView android:text="95"/>
+            <TextView android:text="140"/>
+            <TextView android:text="&lt;120"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

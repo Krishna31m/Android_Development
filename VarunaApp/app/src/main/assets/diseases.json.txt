@@ -1,0 +1,243 @@
+{
+  "diseases": {
+    "cholera": {
+      "name": "Cholera",
+      "description": "Cholera is an acute diarrheal infection caused by ingestion of food or water contaminated with the bacterium Vibrio cholerae.",
+      "causes": [
+        "Contaminated water sources",
+        "Poor sanitation",
+        "Unwashed hands",
+        "Raw or undercooked seafood"
+      ],
+      "symptoms": [
+        "severe watery diarrhea",
+        "vomiting",
+        "dehydration",
+        "muscle cramps",
+        "rapid heart rate"
+      ],
+      "prevention": [
+        "Drink only boiled or treated water",
+        "Wash hands frequently with soap",
+        "Eat properly cooked food",
+        "Avoid raw vegetables in endemic areas"
+      ],
+      "severity": "high",
+      "keywords": ["cholera", "severe diarrhea", "rice water stool"]
+    },
+    "typhoid": {
+      "name": "Typhoid Fever",
+      "description": "Typhoid fever is a bacterial infection caused by Salmonella typhi, spread through contaminated food and water.",
+      "causes": [
+        "Contaminated food and water",
+        "Poor hygiene practices",
+        "Contact with infected person"
+      ],
+      "symptoms": [
+        "prolonged fever",
+        "headache",
+        "weakness",
+        "stomach pain",
+        "loss of appetite",
+        "rose spots on chest"
+      ],
+      "prevention": [
+        "Get vaccinated",
+        "Drink safe water",
+        "Practice good hygiene",
+        "Avoid street food in high-risk areas"
+      ],
+      "severity": "high",
+      "keywords": ["typhoid", "prolonged fever", "enteric fever"]
+    },
+    "dysentery": {
+      "name": "Dysentery",
+      "description": "Dysentery is an intestinal infection causing severe diarrhea with blood and mucus.",
+      "causes": [
+        "Shigella bacteria",
+        "Entamoeba histolytica parasite",
+        "Contaminated water",
+        "Poor sanitation"
+      ],
+      "symptoms": [
+        "bloody diarrhea",
+        "abdominal pain",
+        "fever",
+        "nausea",
+        "cramping"
+      ],
+      "prevention": [
+        "Maintain hand hygiene",
+        "Drink clean water",
+        "Proper food handling",
+        "Use clean toilets"
+      ],
+      "severity": "medium",
+      "keywords": ["dysentery", "bloody stool", "bloody diarrhea"]
+    },
+    "hepatitis_a": {
+      "name": "Hepatitis A",
+      "description": "Hepatitis A is a viral liver infection spread through contaminated food and water.",
+      "causes": [
+        "Contaminated water or ice",
+        "Contaminated food",
+        "Contact with infected person",
+        "Poor sanitation"
+      ],
+      "symptoms": [
+        "fatigue",
+        "nausea",
+        "abdominal pain",
+        "jaundice",
+        "dark urine",
+        "clay colored stool"
+      ],
+      "prevention": [
+        "Get vaccinated",
+        "Practice good hygiene",
+        "Drink safe water",
+        "Wash fruits and vegetables"
+      ],
+      "severity": "medium",
+      "keywords": ["hepatitis a", "jaundice", "yellow eyes"]
+    },
+    "hepatitis_e": {
+      "name": "Hepatitis E",
+      "description": "Hepatitis E is a liver infection caused by the hepatitis E virus, typically spread through contaminated water.",
+      "causes": [
+        "Fecal contaminated water",
+        "Undercooked meat",
+        "Poor sanitation"
+      ],
+      "symptoms": [
+        "jaundice",
+        "fatigue",
+        "nausea and vomiting",
+        "abdominal pain",
+        "dark urine"
+      ],
+      "prevention": [
+        "Drink treated water",
+        "Practice proper hygiene",
+        "Cook meat thoroughly",
+        "Improve sanitation"
+      ],
+      "severity": "medium",
+      "keywords": ["hepatitis e", "liver infection"]
+    },
+    "diarrhea": {
+      "name": "Waterborne Diarrhea",
+      "description": "Acute diarrhea caused by various pathogens in contaminated water.",
+      "causes": [
+        "Bacteria (E. coli, Salmonella)",
+        "Viruses (Rotavirus, Norovirus)",
+        "Parasites",
+        "Contaminated water"
+      ],
+      "symptoms": [
+        "loose watery stool",
+        "abdominal cramps",
+        "nausea",
+        "fever",
+        "dehydration"
+      ],
+      "prevention": [
+        "Drink clean water",
+        "Maintain hygiene",
+        "Wash hands regularly",
+        "Eat fresh cooked food"
+      ],
+      "severity": "low",
+      "keywords": ["diarrhea", "loose motion", "upset stomach"]
+    },
+    "giardiasis": {
+      "name": "Giardiasis",
+      "description": "A parasitic infection of the small intestine caused by Giardia lamblia.",
+      "causes": [
+        "Contaminated water",
+        "Person to person contact",
+        "Contaminated surfaces"
+      ],
+      "symptoms": [
+        "diarrhea",
+        "greasy stool",
+        "stomach cramps",
+        "bloating",
+        "nausea",
+        "weight loss"
+      ],
+      "prevention": [
+        "Filter or boil water",
+        "Practice hand hygiene",
+        "Avoid swallowing lake water",
+        "Wash fruits and vegetables"
+      ],
+      "severity": "low",
+      "keywords": ["giardiasis", "giardia", "greasy stool"]
+    }
+  },
+  "general_info": {
+    "water_safety": {
+      "title": "Safe Water Practices",
+      "tips": [
+        "Boil water for at least 1 minute",
+        "Use certified water filters",
+        "Store water in clean containers",
+        "Treat water with chlorine tablets if needed",
+        "Avoid drinking from unknown sources"
+      ]
+    },
+    "hygiene": {
+      "title": "Hygiene Best Practices",
+      "tips": [
+        "Wash hands with soap for 20 seconds",
+        "Wash before eating and after using toilet",
+        "Keep nails trimmed and clean",
+        "Use clean towels",
+        "Maintain bathroom cleanliness"
+      ]
+    },
+    "emergency": {
+      "title": "When to See a Doctor",
+      "signs": [
+        "Severe dehydration",
+        "Blood in stool",
+        "High fever above 102°F",
+        "Persistent vomiting",
+        "Symptoms lasting more than 3 days",
+        "Severe abdominal pain",
+        "Signs of jaundice"
+      ]
+    }
+  },
+  "faqs": {
+    "faq1": {
+      "question": "Is boiling water enough to make it safe?",
+      "answer": "Yes, boiling water for at least 1 minute kills most disease-causing organisms. At higher altitudes, boil for 3 minutes. Let it cool naturally before drinking."
+    },
+    "faq2": {
+      "question": "How can I tell if I have a waterborne disease?",
+      "answer": "Common signs include diarrhea, vomiting, stomach cramps, fever, and dehydration. If you experience these symptoms after consuming potentially contaminated water, consult a healthcare professional."
+    },
+    "faq3": {
+      "question": "Can I get waterborne diseases from swimming?",
+      "answer": "Yes, swallowing contaminated water while swimming in lakes, rivers, or poorly maintained pools can cause infections. Avoid swallowing water and shower after swimming."
+    }
+  },
+  "chat_logs": {
+    "userId_timestamp": {
+      "messages": [
+        {
+          "sender": "user",
+          "message": "What are symptoms of cholera?",
+          "timestamp": 1234567890
+        },
+        {
+          "sender": "bot",
+          "message": "Cholera symptoms include...",
+          "timestamp": 1234567891
+        }
+      ]
+    }
+  }
+}

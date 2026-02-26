@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Varuna App</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="water_quality">Tui Gual</string>
+    <string name="reports">Reports</string>
+    <string name="profile">Profile</string>
+
+    <string name="select_village">Khukrang Thangba</string>
+    <string name="add_new_village">Gital Khukrang Rangba</string>
+    <string name="village_name">Khukrang Mung</string>
+
+    <string name="water_test_data">Tui Test Data</string>
+    <string name="add_water_test">Tui Test Data Rangba</string>
+
+    <string name="health_reports">Health Reports</string>
+    <string name="add_health_report">Health Report Rangba</string>
+    <string name="view_all_reports">Pilak Reports Nainba</string>
+
+    <string name="patient_name">Bimar Mung</string>
+    <string name="age">Baisuk</string>
+    <string name="gender">Gender</string>
+    <string name="symptoms">Lakshan</string>
+
+    <string name="submit">Submit Koro</string>
+    <string name="cancel">Cancel Koro</string>
+    <string name="save">Save Koro</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+
+    <string name="no_villages_message">
+        Eto khukrang rangja.
+        \nSurute gital khukrang rangba.
+    </string>
+
+    <string name="hint_message">Tui phangni bemar giman khung...</string>
+    <string name="loading">Load ong...</string>
+    <string name="error_network">Connect tongja. Internet check koro.</string>
+    <string name="send">Pathao</string>
+
+    <string name="upload_material">Material Upload Koro</string>
+    <string name="education_material">Education Material</string>
+    <string name="alerts">Alert</string>
+
+    <string name="welcome_title">Varuna Nwng Barak</string>
+    <string name="welcome_subtitle">Health aro Tui Quality Monitor</string>
+
+    <string name="village_report_title">Khukrang Report</string>
+    <string name="village_report_desc">Bimar lakhan report koro</string>
+
+    <string name="water_quality_title">Tui Quality</string>
+    <string name="water_quality_desc">Tui quality test koro</string>
+
+    <string name="alerts_title">Alert</string>
+    <string name="alerts_desc">Health alert nainba</string>
+
+    <string name="education_title">Information</string>
+    <string name="education_desc">Hygiene practice sikha</string>
+
+    <string name="water_reference_title">Tui test reference format</string>
+    <string name="water_reference_desc">CSV format data upload koro</string>
+
+    <string name="chatbot_title">Chat Bot</string>
+    <string name="chatbot_desc">Bot Assistant</string>
+
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ਵਰੁਣਾ ਐਪ</string>
+
+    <string name="dashboard">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="water_quality">ਪਾਣੀ ਦੀ ਗੁਣਵੱਤਾ</string>
+    <string name="reports">ਰਿਪੋਰਟਾਂ</string>
+    <string name="profile">ਪ੍ਰੋਫ਼ਾਈਲ</string>
+
+    <string name="select_village">ਪਿੰਡ ਚੁਣੋ</string>
+    <string name="add_new_village">ਨਵਾਂ ਪਿੰਡ ਜੋੜੋ</string>
+    <string name="village_name">ਪਿੰਡ ਦਾ ਨਾਮ</string>
+
+    <string name="water_test_data">ਪਾਣੀ ਟੈਸਟ ਡਾਟਾ</string>
+    <string name="add_water_test">ਪਾਣੀ ਟੈਸਟ ਡਾਟਾ ਜੋੜੋ</string>
+
+    <string name="health_reports">ਸਿਹਤ ਰਿਪੋਰਟਾਂ</string>
+    <string name="add_health_report">ਸਿਹਤ ਰਿਪੋਰਟ ਜੋੜੋ</string>
+    <string name="view_all_reports">ਸਾਰੀਆਂ ਰਿਪੋਰਟਾਂ ਵੇਖੋ</string>
+
+    <string name="patient_name">ਮਰੀਜ਼ ਦਾ ਨਾਮ</string>
+    <string name="age">ਉਮਰ</string>
+    <string name="gender">ਲਿੰਗ</string>
+    <string name="symptoms">ਲੱਛਣ</string>
+
+    <string name="submit">ਜਮ੍ਹਾ ਕਰੋ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="save">ਸੰਭਾਲੋ</string>
+    <string name="logout">ਲਾਗ ਆਉਟ</string>
+    <string name="help">ਮਦਦ</string>
+
+    <string name="no_villages_message">
+        ਹਾਲੇ ਤੱਕ ਕੋਈ ਪਿੰਡ ਨਹੀਂ ਜੋੜਿਆ ਗਿਆ।
+        \nਸ਼ੁਰੂ ਕਰਨ ਲਈ ਨਵਾਂ ਪਿੰਡ ਜੋੜੋ।
+    </string>
+
+    <string name="hint_message">ਪਾਣੀ ਨਾਲ ਫੈਲਣ ਵਾਲੀਆਂ ਬਿਮਾਰੀਆਂ ਬਾਰੇ ਪੁੱਛੋ...</string>
+    <string name="loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...</string>
+    <string name="error_network">ਕਨੈਕਟ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਇੰਟਰਨੈੱਟ ਚੈੱਕ ਕਰੋ।</string>
+    <string name="send">ਭੇਜੋ</string>
+
+    <string name="upload_material">ਸਮੱਗਰੀ ਅੱਪਲੋਡ ਕਰੋ</string>
+    <string name="education_material">ਸ਼ਿਕਸ਼ਣ ਸਮੱਗਰੀ</string>
+    <string name="alerts">ਚੇਤਾਵਨੀ</string>
+
+    <string name="welcome_title">ਵਰੁਣਾ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ</string>
+    <string name="welcome_subtitle">ਸਿਹਤ ਅਤੇ ਪਾਣੀ ਦੀ ਗੁਣਵੱਤਾ ਦੀ ਨਿਗਰਾਨੀ</string>
+
+    <string name="village_report_title">ਪਿੰਡ ਰਿਪੋਰਟ</string>
+    <string name="village_report_desc">ਮਰੀਜ਼ ਦੇ ਲੱਛਣ ਰਿਪੋਰਟ ਕਰੋ</string>
+
+    <string name="water_quality_title">ਪਾਣੀ ਦੀ ਗੁਣਵੱਤਾ</string>
+    <string name="water_quality_desc">ਪਾਣੀ ਦੀ ਗੁਣਵੱਤਾ ਜਾਂਚੋ</string>
+
+    <string name="alerts_title">ਚੇਤਾਵਨੀ</string>
+    <string name="alerts_desc">ਸਿਹਤ ਚੇਤਾਵਨੀਆਂ ਵੇਖੋ</string>
+
+    <string name="education_title">ਜਾਣਕਾਰੀ</string>
+    <string name="education_desc">ਸਫਾਈ ਦੀਆਂ ਆਦਤਾਂ ਸਿੱਖੋ</string>
+
+    <string name="water_reference_title">ਪਾਣੀ ਟੈਸਟ ਰੈਫਰੈਂਸ ਫਾਰਮੈਟ</string>
+    <string name="water_reference_desc">ਕੇਵਲ CSV ਫਾਰਮੈਟ ਵਿੱਚ ਡਾਟਾ ਅਪਲੋਡ ਕਰੋ</string>
+
+    <string name="chatbot_title">ਚੈਟ ਬੋਟ</string>
+    <string name="chatbot_desc">ਬੋਟ ਸਹਾਇਕ</string>
+
+
+</resources>

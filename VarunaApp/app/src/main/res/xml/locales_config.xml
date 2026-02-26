@@ -1,0 +1,14 @@
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en"/>
+    <locale android:name="hi"/>
+    <locale android:name="as"/>
+    <locale android:name="bn"/>
+    <locale android:name="mni"/>
+    <locale android:name="kha"/>
+    <locale android:name="gar"/>
+    <locale android:name="lus"/>
+    <locale android:name="trp"/>
+    <locale android:name="pa"/>
+    <locale android:name="ta"/>
+    <locale android:name="har"/>
+</locale-config>

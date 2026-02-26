@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">वरुणा ऐप</string>
+
+    <string name="dashboard">डैशबोर्ड</string>
+    <string name="water_quality">पाणी की गुणवत्ता</string>
+    <string name="reports">रिपोर्ट</string>
+    <string name="profile">प्रोफाइल</string>
+
+    <string name="select_village">गांव चुन ले</string>
+    <string name="add_new_village">नया गांव जोड़ दे</string>
+    <string name="village_name">गांव का नाम</string>
+
+    <string name="water_test_data">पाणी जांच का डेटा</string>
+    <string name="add_water_test">पाणी जांच का डेटा जोड़ दे</string>
+
+    <string name="health_reports">स्वास्थ्य रिपोर्ट</string>
+    <string name="add_health_report">स्वास्थ्य रिपोर्ट जोड़ दे</string>
+    <string name="view_all_reports">सारी रिपोर्ट देख ले</string>
+
+    <string name="patient_name">मरीज का नाम</string>
+    <string name="age">उम्र</string>
+    <string name="gender">लिंग</string>
+    <string name="symptoms">लक्षण</string>
+
+    <string name="submit">जमा कर दे</string>
+    <string name="cancel">रद्द कर दे</string>
+    <string name="save">सहेज ले</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="help">मदद</string>
+
+    <string name="no_villages_message">
+        अभी तक कोई गांव ना जोड़ा गया।
+        \nशुरू करन खातर नया गांव जोड़ दे।
+    </string>
+
+    <string name="hint_message">पाणी सै फैलण वाली बीमारीां बारे पूछ ले...</string>
+    <string name="loading">लोड हो रहया सै...</string>
+    <string name="error_network">कनेक्ट ना हो पाया। इंटरनेट चेक कर ले।</string>
+    <string name="send">भेज दे</string>
+
+    <string name="upload_material">सामान अपलोड कर दे</string>
+    <string name="education_material">पढ़ाई का सामान</string>
+    <string name="alerts">सूचना</string>
+
+    <string name="welcome_title">वरुणा म स्वागत सै</string>
+    <string name="welcome_subtitle">स्वास्थ्य अर पाणी गुणवत्ता देखरेख</string>
+
+    <string name="village_report_title">गांव रिपोर्ट</string>
+    <string name="village_report_desc">मरीज के लक्षण रिपोर्ट कर दे</string>
+
+    <string name="water_quality_title">पाणी गुणवत्ता</string>
+    <string name="water_quality_desc">पाणी की जांच कर दे</string>
+
+    <string name="alerts_title">सूचना</string>
+    <string name="alerts_desc">स्वास्थ्य सूचना देख ले</string>
+
+    <string name="education_title">जानकारी</string>
+    <string name="education_desc">सफाई की आदत सीख ले</string>
+
+    <string name="water_reference_title">पाणी जांच फॉर्मेट</string>
+    <string name="water_reference_desc">सिर्फ CSV फॉर्मेट म डेटा अपलोड कर दे</string>
+
+    <string name="chatbot_title">चैट बोट</string>
+    <string name="chatbot_desc">बोट सहायक</string>
+
+</resources>
+
+<!--Haryanvi-->
