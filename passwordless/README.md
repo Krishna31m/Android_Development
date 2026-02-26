@@ -1,0 +1,154 @@
+Below is a **clean, professional `README.md`** you can directly copy into your GitHub repository.
+It is written to satisfy **college evaluation + interview standards**.
+
+---
+
+```md
+# 🔐 Passwordless Authentication App (Email + OTP)
+
+A modern Android application demonstrating a **passwordless authentication flow** using **Email + OTP**, built entirely with **Kotlin and Jetpack Compose**.  
+The project implements OTP generation, validation, session tracking, and analytics — all **locally**, without any backend.
+
+---
+
+## 📱 Features
+
+### ✅ Email + OTP Login
+- User enters an email address
+- App generates a **6-digit OTP locally**
+- User enters OTP to authenticate
+- No password required
+
+### 🔢 OTP Rules
+- OTP length: **6 digits**
+- OTP expiry: **60 seconds**
+- Maximum attempts: **3**
+- Generating a new OTP:
+  - Invalidates previous OTP
+  - Resets attempt count
+- OTPs are stored **per email**
+
+### ⏱ Session Tracking
+- Displays **session start time**
+- Shows **live session duration (mm:ss)**
+- Session timer:
+  - Survives recompositions
+  - Stops correctly on logout
+
+### 📊 Analytics Integration
+- Integrated **Firebase Analytics**
+- Logs the following events:
+  - OTP generated
+  - OTP validation success
+  - OTP validation failure
+  - Logout (with session duration)
+- User email is **hashed** before logging (privacy-safe)
+
+---
+
+## 🛠 Tech Stack
+
+- **Language:** Kotlin
+- **UI:** Jetpack Compose (Material 3)
+- **Architecture:** MVVM (ViewModel + UI State)
+- **State Management:** StateFlow
+- **Concurrency:** Kotlin Coroutines
+- **Analytics:** Firebase Analytics
+- **IDE:** Android Studio
+
+---
+
+## 🧱 Architecture Overview
+
+- **One-way data flow**
+- **Clear separation of concerns**
+- UI observes state from `ViewModel`
+- Business logic isolated from UI
+
+```
+
+ui/
+├── LoginScreen.kt
+├── OtpScreen.kt
+├── SessionScreen.kt
+
+viewmodel/
+├── AuthViewModel.kt
+├── AuthState.kt
+
+data/
+├── OtpManager.kt
+
+analytics/
+├── AnalyticsLogger.kt
+
+MainActivity.kt
+AuthViewModelFactory.kt
+
+```
+
+---
+
+## 🔄 App Flow
+
+1. App starts → Login Screen
+2. User enters email → taps **Send OTP**
+3. OTP generated locally
+4. User enters OTP
+5. On success → Session Screen
+6. Session duration updates live
+7. User logs out → App resets to login
+
+---
+
+## ⚠️ Important Notes
+
+- OTP is **not sent via email** in this project  
+  (As per requirement: *no backend required*)
+- OTP is logged only for **demo/testing**
+- In a production app, OTP delivery would be handled via:
+  - Backend server
+  - Email/SMS provider (SendGrid, Firebase Functions, etc.)
+
+---
+
+## 🧪 Edge Cases Handled
+
+- Expired OTP
+- Incorrect OTP
+- Exceeded maximum attempts
+- Resend OTP
+- Screen rotation / recomposition safety
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates understanding of:
+- Jetpack Compose (`@Composable`, `remember`, `rememberSaveable`, `LaunchedEffect`)
+- State-driven UI and recomposition handling
+- ViewModel and StateFlow
+- Time-based logic
+- Kotlin data structures (`Map`)
+- Defensive coding practices
+- External SDK integration (Firebase Analytics)
+
+---
+
+## 🚀 Future Enhancements (Optional)
+
+- Real email OTP delivery
+- Navigation Compose
+- Unit tests
+- Backend integration
+- OTP auto-read (SMS)
+- UI/UX enhancements
+
+---
+
+## 👨‍💻 Author
+
+**Krishna**  
+Android Developer | Kotlin | Jetpack Compose
+
+---

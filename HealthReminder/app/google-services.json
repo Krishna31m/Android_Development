@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "574295829610",
+    "project_id": "healthreminder-ba1eb",
+    "storage_bucket": "healthreminder-ba1eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574295829610:android:4060109d7524a6c8536e13",
+        "android_client_info": {
+          "package_name": "com.example.healthreminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcs7YIwYBkvKkSjZkcfCRfKla-LLhk59o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

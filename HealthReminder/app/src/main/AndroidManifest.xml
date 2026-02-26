@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.healthreminder">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthReminder"
+        android:usesCleartextTraffic="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="31">
+
+        <!-- Splash Activity (Launcher) -->
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HealthReminder.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentication Activities -->
+<!--        <activity-->
+<!--            android:name=".ui.auth.LoginActivity"-->
+<!--            android:exported="false"-->
+<!--            android:theme="@style/Theme.HealthReminder.NoActionBar" />-->
+
+<!--        <activity-->
+<!--            android:name=".ui.auth.SignUpActivity"-->
+<!--            android:exported="false"-->
+<!--            android:theme="@style/Theme.HealthReminder.NoActionBar" />-->
+
+<!--        &lt;!&ndash; Main Activity &ndash;&gt;-->
+<!--        <activity-->
+<!--            android:name=".ui.main.MainActivity"-->
+<!--            android:exported="false"-->
+<!--            android:theme="@style/Theme.HealthReminder.NoActionBar" />-->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HealthReminder" />
+
+        <activity
+            android:name=".ui.auth.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HealthReminder" />
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HealthReminder" />
+
+
+        <!-- Medicine Activities -->
+        <activity
+            android:name=".ui.medicine.MedicineActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.medicine.AddMedicineActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.medicine.MedicineActivity" />
+
+        <!-- Water Tracker Activity -->
+        <activity
+            android:name=".ui.water.WaterTrackerActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <!-- Exercise Activities -->
+        <activity
+            android:name=".ui.exercise.ExerciseActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.exercise.AddExerciseActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.exercise.ExerciseActivity" />
+
+        <!-- Diet Activities -->
+        <activity
+            android:name=".ui.diet.DietActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.diet.AddMealActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.diet.DietActivity" />
+
+        <!-- Mood Tracker Activity -->
+        <activity
+            android:name=".ui.mood.MoodTrackerActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <!-- Emergency Card Activity -->
+        <activity
+            android:name=".ui.emergency.EmergencyCardActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <!-- Doctor Visit Activities -->
+        <activity
+            android:name=".ui.doctor.DoctorVisitActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.doctor.AddDoctorVisitActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.doctor.DoctorVisitActivity" />
+
+        <!-- Challenges Activities -->
+        <activity
+            android:name=".ui.challenges.ChallengesActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.challenges.AddChallengeActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.challenges.ChallengesActivity" />
+
+        <activity
+            android:name=".ui.chatbot.ChatBotActivity"
+            android:exported="false" />
+
+
+
+
+        <!-- Broadcast Receivers -->
+        <!-- Medicine Alarm Receiver -->
+        <receiver
+            android:name=".receivers.MedicineAlarmReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.healthreminder.MEDICINE_ALARM" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Medicine Action Receiver (Take/Skip) -->
+        <receiver
+            android:name=".receivers.MedicineActionReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.healthreminder.ACTION_MEDICINE_TAKEN" />
+                <action android:name="com.example.healthreminder.ACTION_MEDICINE_SKIPPED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Boot Receiver (to reschedule alarms after device restart) -->
+        <receiver
+            android:name=".receivers.BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+<!--        <receiver-->
+<!--            android:name=".receivers.MedicineAlarmReceiver"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false" />-->
+
+        <receiver
+            android:name=".receivers.WaterReminderReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receivers.ExerciseAlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+<!--        <receiver-->
+<!--            android:name=".receivers.MedicineActionReceiver"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false" />-->
+
+<!--        <receiver-->
+<!--            android:name=".receivers.BootCompletedReceiver"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.BOOT_COMPLETED" />-->
+<!--                <action android:name="android.intent.action.QUICKBOOT_POWERON" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+
+        <!-- Firebase Cloud Messaging Service (Optional) -->
+        <service
+            android:name=".services.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Metadata -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Add this to suppress auth warnings in debug -->
+        <meta-data
+            android:name="com.google.android.gms.auth.api.signin.debug"
+            android:value="false" />
+
+
+    </application>
+
+</manifest>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<manifest xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />-->
+<!--    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+<!--    <uses-permission android:name="android.permission.INTERNET" />-->
+<!--    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />-->
+<!--    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />-->
+<!--    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />-->
+<!--    <uses-permission android:name="android.permission.VIBRATE" />-->
+<!--    <uses-permission android:name="android.permission.WAKE_LOCK" />-->
+<!--    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+
+<!--    <application-->
+<!--        android:allowBackup="true"-->
+<!--        android:dataExtractionRules="@xml/data_extraction_rules"-->
+<!--        android:fullBackupContent="@xml/backup_rules"-->
+<!--        android:icon="@mipmap/ic_launcher"-->
+<!--        android:label="@string/app_name"-->
+<!--        android:roundIcon="@mipmap/ic_launcher_round"-->
+<!--        android:supportsRtl="true"-->
+<!--        android:theme="@style/Theme.HealthReminder">-->
+
+<!--        &lt;!&ndash; Splash Screen &ndash;&gt;-->
+<!--        <activity-->
+<!--            android:name=".ui.splash.SplashActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+<!--        &lt;!&ndash; Login &ndash;&gt;-->
+<!--        <activity-->
+<!--            android:name=".ui.auth.LoginActivity"-->
+<!--            android:exported="true" />-->
+
+<!--        &lt;!&ndash; SignUp &ndash;&gt;-->
+<!--        <activity-->
+<!--            android:name=".ui.auth.SignUpActivity"-->
+<!--            android:exported="true" />-->
+
+<!--        &lt;!&ndash; Main Dashboard &ndash;&gt;-->
+<!--        <activity-->
+<!--            android:name=".ui.main.MainActivity"-->
+<!--            android:exported="true" />-->
+<!--        <service-->
+<!--            android:name=".services.MyFirebaseMessagingService"-->
+<!--            android:exported="false">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
+<!--            </intent-filter>-->
+<!--        </service>-->
+
+
+<!--        &lt;!&ndash; Feature Activities &ndash;&gt;-->
+<!--        <activity android:name=".ui.emergency.EmergencyCardActivity" />-->
+<!--        <activity android:name=".ui.medicine.MedicineActivity" />-->
+<!--        <activity android:name=".ui.water.WaterTrackerActivity" />-->
+<!--        <activity android:name=".ui.exercise.ExerciseActivity" />-->
+<!--        <activity android:name=".ui.diet.DietActivity" />-->
+<!--        <activity android:name=".ui.mood.MoodTrackerActivity" />-->
+<!--        <activity android:name=".ui.doctor.DoctorVisitActivity" />-->
+<!--        <activity android:name=".ui.challenges.ChallengesActivity" />-->
+<!--        <activity android:name=".ui.chatbot.ChatBotActivity" />-->
+
+
+<!--        &lt;!&ndash; Medicine Action Receiver &ndash;&gt;-->
+<!--        <receiver-->
+<!--            android:name=".receivers.MedicineActionReceiver"-->
+<!--            android:exported="false" />-->
+
+<!--    </application>-->
+
+<!--</manifest>-->

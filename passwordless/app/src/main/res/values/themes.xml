@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Passwordless" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+<!--    <style name="Theme.Passwordless" parent="Base.Theme.Passwordless" />-->
+
+    <style name="Theme.Passwordless" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

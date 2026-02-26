@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Events">
+
+
+        <!-- Splash Screen with Explicit Exported Attribute -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"/>  <!-- Not needed for internal activities -->
+        <activity android:name=".EventDetailActivity" />
+        <activity android:name=".TicketActivity" />
+
+        <activity android:name=".CommunityActivity" />
+        <activity android:name=".QRPaymentActivity" />
+        <activity android:name=".OtherBookingActivity"/>
+        <activity android:name=".PaymentActivity" />
+
+        <activity android:name=".MoviesActivity" />
+        <activity android:name=".ComedyActivity" />
+        <activity android:name=".MusicActivity" />
+        <activity android:name=".PlaysActivity" />
+        <activity android:name=".SportsActivity" />
+        <activity android:name=".AdventureActivity" />
+        <activity android:name=".WorkshopActivity" />
+        <activity android:name=".KidsZoneActivity" />
+        <activity android:name=".LiveEventsActivity" />
+        <activity android:name=".ProfileActivity"/>
+
+
+
+    </application>
+</manifest>
